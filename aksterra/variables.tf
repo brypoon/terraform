@@ -18,7 +18,7 @@ variable cluster_name {
 }
 
 variable resource_group_name {
-    default = "1-2d514aa4-playground-sandbox"
+    default = "1-b94a430b-playground-sandbox"
 }
 
 variable location {

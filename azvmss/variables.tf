@@ -1,6 +1,6 @@
 variable "resource_group_name" {
    description = "Name of the resource group in which the resources will be created"
-   default     = "1-e314e17a-playground-sandbox"
+   default     = "1-73be285e-playground-sandbox"
 }
 
 variable "location" {
@@ -28,4 +28,5 @@ variable "admin_user" {
 
 variable "admin_password" {
    description = "Default password for admin account"
+   default     = "AzurePassword1!"
 }

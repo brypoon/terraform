@@ -179,6 +179,8 @@ resource "azurerm_virtual_machine" "jumpbox" {
    version   = "latest"
  }
 
+ delete_os_disk_on_termination = true
+ 
  storage_os_disk {
    name              = "jumpbox-osdisk"
    caching           = "ReadWrite"
